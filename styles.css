@@ -21,8 +21,11 @@ body{
     padding:auto;
 /*    background:linear-gradient(to left,#4facfe,#00f2fe) */
 }
+.header>.logo1{
+    margin-left:.9rem;
+}
 .img1 img{
-    width:2rem;
+    width:3.1rem;
     margin-left:10px;
 }
 .logo1{
@@ -43,12 +46,17 @@ body{
 .icon>i{
     width:50px;
     font-size:30px;
+    margin-right:.9rem;
 }
 .nav>ul{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
     padding:10px;
+    color: #ffffff;
+}
+.nav>ul{
+    background-color:#000000;
 }
 li{
     list-style:none;
@@ -59,7 +67,7 @@ a{
 .nav>ul>a>li{
     font-size:.99rem;
     font-weight:bold;
-    color:#0C090A;
+    color:#ffffff;
     
 }
 .icon1>a{
@@ -81,10 +89,12 @@ a{
 }
 .icon1>a>i{
     position:static;
+    transition:all .5s ease-in;
 }
 .footer1>a{
     text-decoration:none;
     color:#999999;
+    padding:.1rem;
 }
 .footer1{
     display:flex;
@@ -125,7 +135,7 @@ a{
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr 1fr;
     height:25rem;
-    gap:;
+    gap:3px;
     flex-basis:50%;
     padding-right:15px;
     
@@ -158,11 +168,59 @@ a{
 .section-1{
     background-image:url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=872&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     transition:all 1.5s ease-in-out;
+    background-size:cover;
+    background-position:right;
 }
 .nav, .header{
     background-color:#ffffff;
 }
 .section-1:hover{
     cursor:pointer;
+    background-position:top;
+}
+.gridtime{
+    height:35em;height:35em;
+    
+    background-image:url('https://images7.alphacoders.com/134/1346886.png');
+    background-size:cover;
+    background-blend-mode:hard-light;
+}
+.time1{
+    flex-basis:150%;
+    background-image:url('https://cdn.mos.cms.futurecdn.net/9meMCxtJU3NWkh5YcPs7qG-970-80.jpg.webp');
+    background-size:cover;
+    height:20rem;
+    align-self:center;
+    margin-left:10px;
+    transition:all 5s ease-in-out;
+    border-radius:3px;
+
+}
+.time1:hover{
+    cursor:pointer;
     background-position:right;
+}
+.time2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+.blur1{
+    height:35em;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    background-color:#00000020;
+    backdrop-filter:blur(8px);
+    padding:
+}
+.gridtime{
+   
+}
+.imgg>div{
+    border-radius:3px;
+    gap:3px
 }
