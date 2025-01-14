@@ -10,13 +10,14 @@
     background:linear-gradient(to left,#0f9b0f,#000000);
 }
 .d2{
+    margin:auto;
     width:25rem;
     height:22.5rem;
     background-color:#00000050;
-    position:absolute;
+  /*  position:absolute;
     top:40%;
     transform:translatey(-37%);
-    left:37vw;
+    left:37vw; %/
     border:0.5px solid #000000;
     border-radius:2px;
     padding:2rem;
